@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Evelyn's Shelter</title>
+	</head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+	<body>
+		<h1>Evelyn</h1>
+		<h2>About me!</h2>
+		<p>I'm a junior at University of Washington, I come from China and This is my second year study at U.S. I like Seattle:)</p>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/eviiii_iiii/?hl=en">My instagram </a>
+            </li>
+            <li>
+                <a href="https://www.google.com/">The web I used most!</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/">Where I watch videos:)</a>
+            </li>
+            <li>
+                <a href="https://www.seattletimes.com/">Where I read news:)</a>
+            </li>
+            <li>
+                <a href="https://github.com/">A funny & useful web)</a>
+            </li>
+        </ul>
+        
+        <h3>My Favorite Pictures</h3>
+        <a href="https://www.gs.washington.edu/academics/summer/gssummer/index.htm#">
+        <img src="https://www.gs.washington.edu/academics/summer/gssummer/images/blossoms.jpg"
+        title="UW" style="width:300px; height:250px; margin:5px">
+        </a>
+        <a href="https://weheartit.com/articles/318702042-my-opinion-on-bloom-album-by-troye-sivan">        
+        <img src="https://data.whicdn.com/images/318702042/original.jpg?t=1535832122"
+        title="Troye Sivan" style="width:300px; height:400px; margin:5px"></a>
+
+        <h4>How do you think of Seattle?</h4>
+        
+        <form action="/action_page.php">
+          <input type="radio" id="Excellent" name="positive" value="ecellent">
+          <label for="Excellent">I like Seattle so much</label><br>
+          <input type="radio" id="soso" name="normal" value="SOSO">
+          <label for="soso">Just soso</label><br>
+          <input type="radio" id="dislike" name="negative" value="Dislike">
+          <label for="dislike">I don't like Seattle :(</label>
+        <br><br>
+        <button type="button">Finish</button>
+        </form>
+
+        <br><br>
+        <address>
+        Go to my school: <a href="https://www.washington.edu/">University of Washington</a>.<br> 
+        Visit at:<br>
+        washington.edu<br>
+        Seattle, WA 98195<br>
+        USA
+        </address>
+
+        <h5>The canvas element</h5>
+
+        <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#B233FF";
+        ctx.fillRect(0, 0, 100, 120);
+        </script>
+    
+	</body>
+
+    <table>
+        <caption>Monthly spendings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Spending</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$800</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$760</td>
+        </tr>
+      </table>
+</html>
