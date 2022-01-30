@@ -1,0 +1,53 @@
+*{
+    background-color: cornsilk;
+}
+
+
+p{
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+p2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#Header{
+    border: solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color:indianred;
+}
+
+#Content{
+    border: 5px dotted blueviolet;
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#Picture{
+    border: solid 8px gold;
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#rcorners{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 400px;
+    height: 250px; 
+}
